@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Stu(models.Model):
     name = models.CharField(max_length=100)
     major = models.CharField(max_length=100)

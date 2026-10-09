@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--4rflc_i!j%x7#bw2%(qb)zh^6fmm)6f6_i1i6f=674+_10fe#'
+SECRET_KEY = 'django-insecure-fwy-lqmwz3#n9r0olu*(zaux)g$lmvz606#5-u&z*_06@r!r2='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'students',
     'home',
+    'stuscore',
 ]
 
 MIDDLEWARE = [
@@ -104,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.1/topics/i18n/
 
-LANGUAGE_CODE ='ko-kr'
+LANGUAGE_CODE =  'ko-kr'
 
-TIME_ZONE = 'Asia/Seoul'
+TIME_ZONE =  'Asia/Seoul'
 
 USE_I18N = True
 
