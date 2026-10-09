@@ -1,5 +1,5 @@
 """
-URL configuration for spro01 project.
+URL configuration for spro02 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.1/topics/http/urls/
@@ -20,6 +20,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('students/', include('students.urls')),
-    path('stuscore/', include('stuscore.urls')),
     path('', include('home.urls')),
 ]
