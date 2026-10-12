@@ -44,7 +44,7 @@ def slist(request):
     # qs = Students.objects.get(name='홍길동') # 1개
     # qs = Students.objects.filter(name__contains='홍') # 검색해서 여러개
     context = {'list':qs} #3개
-    return render(request, 'slist.html',context)
+    return render(request,'slist.html',context)
 
 # 학생정보입력페이지,저장
 def swrite(request):
