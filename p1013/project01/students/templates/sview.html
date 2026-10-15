@@ -14,9 +14,10 @@
     </style>
     <script>
         function deleteBtn(){
-            if(confirm('{{stu.name}} 님의 정보를 삭제하시겠습니까?'))
+            if(confirm('{{stu.name}} 님의 정보를 삭제하시겠습니까?')){
                 location.href='{% url "students:sdelete" stu.no %}';
             }
+        }
     </script>
 </head>
 <body>
@@ -50,9 +51,9 @@
             <th>취미</th>
             <td>{{stu.hobby}}</td>
         </tr>
-
+        
     </table>
-
+   
     <br><br>
     <div>
         <a href='{% url "students:supdate" stu.no %}'><button type='button'>수정</button></a>

@@ -26,3 +26,6 @@ def login(request):
             print('아이디 또는 패스워드가 일치하지 않습니다. 다시 로그인하세요.') 
             context = {'temp':0}   
             return render(request, 'login.html',context)
+
+        
+        

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Students(models.Model):
     no = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
@@ -12,3 +13,4 @@ class Students(models.Model):
 
     def __str__(self):
         return f'{self.no},{self.name},{self.hobby},{self.sdate}'
+
