@@ -19,7 +19,6 @@ def bdelete(request,bno):
     # db삭제
     qs.delete()
 
-
     context={'temp':0,'bno':bno}
     return render(request, 'bwrite.html',context)
 

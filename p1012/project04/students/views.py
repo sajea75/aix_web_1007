@@ -1,5 +1,4 @@
 from django.shortcuts import render
 
 def swrite(request):
-    return render(request,'swrite.html')
-
+    return render(request, 'swrite.html')
