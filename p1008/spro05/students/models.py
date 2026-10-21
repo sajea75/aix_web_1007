@@ -9,3 +9,4 @@ class Stu(models.Model):
 
     def __str__(self):
         return f'{self.name},{self.major},{self.age},{self.grade},{self.gender}'
+        

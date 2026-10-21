@@ -6,3 +6,4 @@ urlpatterns = [
     path('blist/', views.blist, name='blist'),
     path('bwrite/', views.bwrite, name='bwrite'),
 ]
+

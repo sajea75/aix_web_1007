@@ -3,4 +3,3 @@ from member.models import Member
 
 admin.site.register(Member)
 
-

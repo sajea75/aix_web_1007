@@ -19,5 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('students/',include('students.urls')), #students app안에 urls를 찾아감
+    path('students/', include('students.urls')), # students app안에 urls를 찾아감.
 ]

@@ -17,3 +17,4 @@ def bwrite(request):
         Board(btitle=btitle,bfile=bfile).save()
         print(f'데이터확인 : {btitle},{bfile}')
         return render(request,'bwrite.html')
+        
